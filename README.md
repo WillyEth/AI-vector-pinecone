@@ -56,6 +56,15 @@ This script retrieves embedded document information from the Pinecone vector sto
 
 The script prints the engineered prompt and the formatted result of the query, displaying the relevant information retrieved from the embedded documents.
 
----
+---Python Terminal First prompt example
+![Capture1.PNG](Capture1.PNG)
+---Python Terminal Second prompt Examle
+![Capture2.PNG](Capture2.PNG)
 
-This README provides a clear overview and documentation of the two scripts, explaining their purposes, detailed workflows, and sample outputs.
+--This is PineCone Ingestion of Williamkroll_Draft Resume
+
+![Capture3.PNG](Capture3.PNG)
+
+--This is Langchain Monitoring debug tool
+
+[Capture4.PNG](Capture4.PNG)
