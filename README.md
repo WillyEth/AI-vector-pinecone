@@ -67,4 +67,5 @@ The script prints the engineered prompt and the formatted result of the query, d
 
 --This is Langchain Monitoring debug tool
 
-[Capture4.PNG](Capture4.PNG)
+![Capture4.PNG](Capture4.PNG)
+ 
