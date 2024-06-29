@@ -12,8 +12,8 @@ load_dotenv()
 
 if __name__ == "__main__":
     print("Start")
-    pdf_path = "WilliamKroll_Draft.pdf"
-    loader = PyPDFLoader("WilliamKroll_Draft.pdf")
+    pdf_path = "JOhnDoe.pdf"
+    loader = PyPDFLoader("JohnDoe.pdf")
 
     documents = loader.load()
     text_splitter = CharacterTextSplitter(

@@ -14,7 +14,7 @@ load_dotenv()
 if __name__ == '__main__':
     print("Ingesting...")
     # loader = PyPDFLoader("William_Kroll_Draft.pdf")
-    loader = TextLoader("WilliamKroll_Draft.txt")
+    loader = TextLoader("Text2.txt")
     document = loader.load()
 
     if not isinstance(document, list):

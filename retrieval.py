@@ -18,7 +18,7 @@ if __name__ == "__main__":
     embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
     llm = ChatOpenAI()
 
-    query = "Summarize William Krolls Resume, short version"
+    query = "Summarize John Doe Resume, short version"
     chain = PromptTemplate.from_template(template=query) | llm
     # result = chain.invoke(input={})
     # print(result.content)
