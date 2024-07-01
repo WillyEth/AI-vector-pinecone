@@ -13,7 +13,7 @@ This script loads a text document, splits it into manageable chunks, generates e
 ### Code Details
 
 1. **Environment Variables**: The script uses the `dotenv` library to load environment variables from a `.env` file.
-2. **Document Loading**: It employs `TextLoader` to read the content of the text file `WilliamKroll_Draft.txt`.
+2. **Document Loading**: It employs `TextLoader` to read the content of the text file  
 3. **Text Splitting**: The document is split into chunks of 1000 characters using `CharacterTextSplitter`.
 4. **Embedding Generation**: The script uses `OpenAIEmbeddings` to generate embeddings for each chunk of text.
 5. **Storage**: The embeddings are stored in a Pinecone vector store specified by the environment variable `PINECONE_INDEX_NAME`.
@@ -37,7 +37,7 @@ This script retrieves embedded document information from the Pinecone vector sto
 
 1. **Environment Variables**: The script uses `dotenv` to load environment variables from a `.env` file.
 2. **Embeddings and Language Model**: It initializes `OpenAIEmbeddings` and `ChatOpenAI` for generating embeddings and processing language queries.
-3. **Query Definition**: A sample query, "What is William Kroll Education," is defined to retrieve specific information.
+3. **Query Definition**: A sample query, "What is Candiates  Education," is defined to retrieve specific information.
 4. **Prompt Template**: The query is converted into a prompt template and processed using the language model.
 5. **Vector Store Retrieval**: It connects to the Pinecone vector store using the environment variable `PINECONE_INDEX_NAME`.
 6. **Document Retrieval Chain**: The script creates a retrieval chain to process the query, retrieve relevant documents, and combine the results using the language model.
@@ -61,7 +61,7 @@ The script prints the engineered prompt and the formatted result of the query, d
 ---Python Terminal Second prompt Examle
 ![Capture2.PNG](Capture2.PNG)
 
---This is PineCone Ingestion of Williamkroll_Draft Resume
+--This is PineCone Ingestion of  Resume
 
 ![Capture3.PNG](Capture3.PNG)
 
